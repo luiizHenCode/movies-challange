@@ -20,6 +20,10 @@ body {
   background: var(--background);
 }
 
+.scroll-lock {
+  overflow: hidden;
+}
+
 input, textarea {
   font-family: "Poppins";
 }
