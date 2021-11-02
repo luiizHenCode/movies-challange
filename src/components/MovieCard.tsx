@@ -6,10 +6,10 @@ interface MovieCardProps {
   imdbID: string;
   Title: string;
   Poster: string;
-  Ratings: Array<{
+  Ratings: {
     Source: string;
     Value: string;
-  }>;
+  }[];
   Runtime: string;
 }
 

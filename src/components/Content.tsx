@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { AnimateSharedLayout, motion } from "framer-motion";
 
 import "../styles/content.scss";
 
@@ -9,10 +10,10 @@ interface Movie {
   imdbID: string;
   Title: string;
   Poster: string;
-  Ratings: Array<{
+  Ratings: {
     Source: string;
     Value: string;
-  }>;
+  }[];
   Runtime: string;
 }
 
